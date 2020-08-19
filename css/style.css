@@ -175,11 +175,12 @@ body {
     color: #fff;
     font-size: 2rem;
     height: 50rem;
-    transition: all 2s;
+    transition: all .8s;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%; }
+    width: 100%;
+    backface-visibility: hidden; }
     .card__side--front {
       background-color: orangered; }
     .card__side--back {
@@ -188,7 +189,7 @@ body {
   .card:hover .card__side--front {
     transform: rotateY(180deg); }
   .card:hover .card__side--back {
-    transform: rotateY(0deg); }
+    transform: rotateY(0); }
 
 .composition {
   position: relative; }
