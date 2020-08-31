@@ -1,5 +1,6 @@
 {
-    "files.autoSave": "afterDelay",
+    "files.autoSave": "onFocusChange",
     "files.autoSaveDelay": 5000,
-    "editor.fontSize": 13.5
+    "editor.fontSize": 13.5,
+    "liveServer.settings.port": 5501
 }
